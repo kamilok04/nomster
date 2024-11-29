@@ -26,7 +26,7 @@ LRESULT __stdcall kCallback(int nCode, WPARAM wParam, LPARAM lParam) {
 
 }
 
-int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
+int __stdcall WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
 	HHOOK kHook = SetWindowsHookEx(WH_KEYBOARD_LL, kCallback, hInstance, 0);
 	MSG msg;
