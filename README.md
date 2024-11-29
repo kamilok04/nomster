@@ -8,11 +8,15 @@ This thing is basic and doesn't even have a window, so you'll need to kill the p
 
 *for experienced ppl*:
 
-- run the command `taskkill /f /im nomster.exe` via any kind of command prompt. Your keys are probably swapped though.
+- run the command `taskkill /f /im nomster_xAA_X.Y.Z.exe` (`AA` is your bitness `X.Y.Z` is the version number) via any kind of command prompt. Your keys are probably swapped though.
 
 *for everyone else*:
 - use a Task Manager (Start Menu → Task Manager) (or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Esc</kbd> if feeling fancy)
-- navigate to `Details` tab, you should see a big ol' list of processes. Find one named `nomster.exe` and click the `End Task` button, should be in the lower right corner.
+- navigate to `Details` tab, you should see a big ol' list of processes. Find one named
+
+  **nomster_`some random numbers`.exe** 
+
+  and click the `End Task` button, should be in the lower right corner.
 - confirm whatever pops up, you're a professional IT now.
 
 ## How do I start it?
